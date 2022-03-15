@@ -6,6 +6,14 @@ import BicicletaNebulaStark from '../../img/bicicletas/nebula-home.jpg';
 import ImageTecnologia from '../../img/fotos/tecnologia.jpg';
 import IconMotorEletrico from '../../img/icones/eletrica.svg';
 import IconRastreador from '../../img/icones/rastreador.svg';
+import IconCaraven from '../../img/parceiros/caravan.svg';
+import IconRanek from '../../img/parceiros/ranek.svg';
+import IconHandel from '../../img/parceiros/handel.svg';
+import IconDogs from '../../img/parceiros/dogs.svg';
+import IconLescone from '../../img/parceiros/lescone.svg';
+import IconFlexBlog from '../../img/parceiros/flexblog.svg';
+import IconWildBeast from '../../img/parceiros/wildbeast.svg';
+import IconSurfBot from '../../img/parceiros/surfbot.svg';
 import './Main.css'
 
 const Main = () => {
@@ -85,6 +93,20 @@ const Main = () => {
           </div>
         </div>
       </article>
+
+      <section className='perceiros' aria-label="Nossos parceiros">
+        <h2 className='container font-1-xxl'>Nossos parceiros<span className='cor-p1'>.</span></h2>
+        <ul>
+        <li><img src={IconCaraven} alt="Ícone da Caravan" /></li>
+        <li><img src={IconRanek} alt="ranek" /></li>
+        <li><img src={IconHandel} alt="handel" /></li>
+        <li><img src={IconDogs} alt="dogs" /></li>
+        <li><img src={IconLescone} alt="lescone" /></li>
+        <li><img src={IconFlexBlog} alt="flexblog" /></li>
+        <li><img src={IconWildBeast} alt="wildbeast" /></li>
+        <li><img src={IconSurfBot} alt="surfbot" /></li>
+        </ul>
+      </section>
     </>
   )
 }
