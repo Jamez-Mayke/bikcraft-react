@@ -94,7 +94,7 @@ const Main = () => {
         </div>
       </article>
 
-      <section className='perceiros' aria-label="Nossos parceiros">
+      <section className='parceiros' aria-label="Nossos parceiros">
         <h2 className='container font-1-xxl'>Nossos parceiros<span className='cor-p1'>.</span></h2>
         <ul>
         <li><img src={IconCaraven} alt="Ícone da Caravan" /></li>
