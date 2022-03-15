@@ -53,3 +53,68 @@
     height: 300px;
   }
 }
+
+/* ========== Lista de bicicletas ============ */
+.bicicletas-lista {
+  padding-top: 60px;
+}
+
+.bicicletas-lista h2 {
+  margin-bottom: 40px;
+}
+
+.bicicletas-lista ul {
+  display: flex;
+  max-width: 1400px;
+  gap: 40px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.bicicletas-lista li {
+  flex: 1;
+  min-width: 280px;
+}
+
+.bicicletas-lista a {
+  display: block;
+}
+
+.bicicletas-lista img {
+  margin-bottom: 16px;
+}
+
+.bicicletas-lista h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.bicicletas-lista h3::before {
+  content: '';
+  background-color: var(--cor-p1);
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin-right: 8px;
+  transition: 200ms;
+}
+
+.bicicletas-lista a:hover h3::before {
+  width: 24px;
+}
+
+.bicicletas-lista li span {
+  padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .bicicletas-lista {
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+  .bicicletas-lista ul {
+    gap: 20px;
+    padding-left: 20px;
+  }
+}
