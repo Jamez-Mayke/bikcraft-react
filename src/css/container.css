@@ -5,3 +5,22 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Botão */
+.botao {
+  max-width: max-content; /* terá semre como tamanho máximo, o seu conteúdo. */
+  padding: 16px 32px;
+  display: inline-block;
+  background: linear-gradient(#FFBF00, #F2A50C);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: var(--cor-p5);
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: linear-gradient(#FFb60d, #e59317);
+}
