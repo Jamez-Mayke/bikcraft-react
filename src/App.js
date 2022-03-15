@@ -1,5 +1,5 @@
 import Header from "./components/header/Header";
-import './css/global.css'
+import './css/styles.css'
 
 function App() {
   return (
